@@ -3,6 +3,6 @@ services:
     name: insta-reels-downloader
     env: node
     buildCommand: "npm install"
-    startCommand: "node index.js"
+    startCommand: "npm start"
     plan: free
     region: oregon
