@@ -1,5 +1,16 @@
 {
+  "name": "insta-reels-downloader",
+  "version": "1.0.0",
+  "description": "Instagram Reels Downloader API",
+  "main": "index.js",
   "scripts": {
-    "start": "DEBUG=* node index.js"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
